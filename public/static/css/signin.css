@@ -1,0 +1,49 @@
+body, .main-content h2 {
+    color: #ededed;
+}
+form {
+    padding-top: 15px;
+}
+.field {
+    margin-top: 15px;
+}
+.field:first-child {
+    padding-top: 15px;
+}
+.field label {
+    padding-bottom: 3px;
+    color: #FF8C00;
+    font-weight: 400;
+    text-shadow: 0  1px 0 rgba(200,200,200,0.3),
+                 0 -1px 0 rgba(0,0,0,0.8);
+}
+.field input {
+    width: 52%;
+    padding: 7px;
+}
+.field label, .field input, .button {
+    margin-left: 160px;
+}
+.options input {
+    width: 20px;
+    font-family: 'Lucida Sans', sans-serif;
+    font-weight: 300;
+}
+.button {
+    margin-top: 35px;
+}
+.btn {
+    width: 52%;
+    margin-top: 25px;
+}
+.forgot {
+    margin: 16px 120px 35px;
+}
+.forgot a {
+    text-align: center;
+    font-size: 12px;
+    color: #428bca;
+}
+.forgot a:hover, .forgot a:focus {
+    color: #2e618d;
+}

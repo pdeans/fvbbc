@@ -1,0 +1,51 @@
+h4, td, th {
+    text-align: center;
+}
+h4 {
+    font-family: 'Lucida Grande';
+    font-weight: 800;
+    color: #2d2d2d;
+}
+p {
+    text-align: center;
+    font-size: 12px;
+}
+.rankings {
+    margin-top: 30px;
+}
+.table {
+    margin-top: 12px;
+    border-bottom: 1px solid #c5c5c5;
+}
+.table th {
+    font-weight: bold;
+}
+.table > tbody > tr > td {
+    color: #333;
+    border-color: #eaeaea;
+}
+.table > tbody > tr:last-child > td {
+    padding-bottom: 8px;
+}
+.table-striped > tbody > tr:nth-child(even) > td,
+.table-striped > tbody > tr:nth-child(even) > th {
+    background-color: #e1e1e1;
+}
+.table-striped > tbody > tr:first-child > th {
+    font-family: Arial;
+    font-weight: 900;
+    background-color: transparent;
+    border-top: none;
+    border-bottom: 1px double #ff6500;
+}
+.table > tbody > tr > .rank,
+.table > tbody > tr > .rating {
+    font-family: Helvetica;
+    font-weight: 900;
+}
+.table > tbody > tr > .rank {
+    color: #B22222;
+}
+.table > tbody > tr > .rating {
+    color: #FF4500;
+}

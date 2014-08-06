@@ -1,0 +1,38 @@
+.main-wrap .events-table {
+   margin: 35px 0 45px;
+   padding: 0 14px;
+   text-align: center;
+}
+th, td {
+   text-align: center;
+}
+.table {
+   background: #e5e5e5;
+   border: 1px solid #bfbfbf;
+   -webkit-box-shadow: rgba(0,0,0,0.3) 0 2px 5px;
+   -moz-box-shadow: rgba(0,0,0,0.3) 0 2px 5px;
+   box-shadow: rgba(0,0,0,0.3) 0 2px 5px;
+}
+.table > tbody > tr > th {
+   background: #303030;
+   color: #E57E00;
+   border-top: 1px solid #222;
+   border-bottom: 1px solid #222;
+}
+.table > tbody > tr > th:first-child {
+   border-left: 1px solid #222;
+}
+.table > tbody > tr > th:last-child {
+   border-right: 1px solid #222;
+}
+.table > tbody > tr > td {
+   padding-bottom: 10px;
+   vertical-align: middle;
+   border-top: 2px solid #777;
+}
+.table > tbody > .first-row > td {
+   border-top: none;
+}
+.table > tbody > tr > td:first-child {
+   max-width: 240px;
+}

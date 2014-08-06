@@ -1,0 +1,84 @@
+form.form-horizontal {
+   width: 75%;
+   margin: 65px 0 85px 86px;
+   padding: 15px 35px 35px;
+   border: 1px solid #c0c0c0;
+   border-top: 4px solid #ff6600;
+   border-radius: 0 0 5px 5px;
+   background: #f2f2f2;
+   background-image: -moz-linear-gradient(top,#f9f9f9 0, #e1e1e1 100%);
+   background-image: -ms-linear-gradient(top,#f9f9f9 0, #e1e1e1 100%);
+   background-image: -o-linear-gradient(top,#f9f9f9 0, #e1e1e1 100%);
+   background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #f9f9f9),color-stop(100%, #e1e1e1));
+   background-image: -webkit-linear-gradient(top,#f9f9f9 0,#e1e1e1 100%);
+   background-image: linear-gradient(to bottom,#f9f9f9 0,#e1e1e1 100%);
+   -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .35), rgba(0,0,0,0.3) 0 1px 3px;
+   -ms-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .35), rgba(0,0,0,0.3) 0 1px 3px;
+   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .35), rgba(0,0,0,0.3) 0 1px 3px;
+   box-shadow: inset 0 1px 0 rgba(255, 255, 255, .35), rgba(0,0,0,0.3) 0 1px 3px;
+   filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#f9f9f9,EndColorStr=#e1e1e1);
+}
+.form-group {
+   max-height: 65px;
+   margin-bottom: 7px;
+}
+.form-horizontal h3 {
+   margin: 0;
+   line-height: 1;
+   padding-bottom: 5px;
+   font-family: "Korolev-Bold","ArialNarrow-Bold",sans-serif;
+   font-size: 25px;
+   font-weight: normal;
+   color: #383838;
+   border-bottom: 1px dotted #f39800;
+}
+.error {
+   font-family: Arial;
+   font-size: 12px;
+}
+label {
+   font-family: 'Lucida Sans', Arial;
+   font-weight: 500;
+}
+input {
+   padding: 0;
+   text-align: center;
+   color: #383838;
+   font-family: Arial;
+   font-weight: 400;
+}
+.form-horizontal input:focus {
+   border: none;
+   -moz-box-shadow: inset 0 1px rgba(51,17,5,0.2),
+                    0 1px rgba(255,255,255,0.1),
+                    0 0 7px rgba(255,87,25,0.8);
+   -webkit-box-shadow: inset 0 1px rgba(51,17,5,0.2),
+                       0 1px rgba(255,255,255,0.1),
+                       0 0 7px rgba(255,87,25,0.8);
+   box-shadow: inset 0 1px rgba(51,17,5,0.2),
+               0 1px rgba(255,255,255,0.1),
+               0 0 7px rgba(255,87,25,0.8);
+}
+form .answer {
+   font-weight: 600;
+}
+form .btn {
+   width: 100%;
+   margin-top: 12px;
+}
+.form-group.form-radio {
+   margin-bottom: 0;
+}
+.form-group.form-radio-last {
+   margin-bottom: 15px;
+}
+.radio {
+   padding-left: 38px;
+   font-size: 13px;
+}
+@media (min-width: 720px) {
+   form .btn {
+      padding-left: 0;
+      padding-right: 0;
+   }
+}

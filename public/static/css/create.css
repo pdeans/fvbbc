@@ -1,0 +1,171 @@
+body, .main-content h2 {
+    color: #ededed;
+}
+.fvbbc {
+    font-weight: 400;
+}
+.hr {
+    margin-top: 50px;
+    padding-top: 35px;
+    border-top: 2px solid #222;
+}
+h4 {
+    padding-top: 45px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 22px;
+}
+input {
+    outline: 0;
+    color: #ddd;
+    background: rgb(32,32,32);
+    border: 1px solid #444;
+    border-radius: 2px;
+    transition: all 0.2s ease-in-out 0s;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+}
+input:focus {
+    background: rgb(39,39,39);
+       -moz-box-shadow: inset 0 1px rgba(51,17,5,0.2),
+                        0 1px rgba(255,255,255,0.6),
+                        0 0 7px rgba(255,87,25,0.5);
+    -webkit-box-shadow: inset 0 1px rgba(51,17,5,0.2),
+                        0 1px rgba(255,255,255,0.6),
+                        0 0 7px rgba(255,87,25,0.5);
+            box-shadow: inset 0 1px rgba(51,17,5,0.2),
+                        0 1px rgba(255,255,255,0.6),
+                        0 0 7px rgba(255,87,25,0.5);
+}
+.field {
+    margin-top: 15px;
+}
+.field:first-child {
+    padding-top: 15px;
+}
+.field label {
+    padding-bottom: 3px;
+    color: #FF8C00;
+    font-weight: 400;
+    text-shadow: 0  1px 0 rgba(200,200,200,0.3),
+                 0 -1px 0 rgba(0,0,0,0.8);
+}
+.field input {
+    width: 52%;
+    padding: 7px;
+}
+.field label, .field input, .btn {
+    margin-left: 160px;
+}
+.note {
+    width: 560px;
+    padding: 20px 0 3px 160px;
+    font-weight: 300;
+}
+.name {
+    margin-top: 0;
+}
+.name input, .size input {
+    width: 25%;
+}
+.name input:last-child,
+.size input:last-child,
+.name .input-last,
+.size .input-last {
+    margin-left: 10px;
+}
+.email {
+    padding-bottom: 15px;
+    border-bottom: 2px solid #222;
+}
+.totals input {
+    width: 248px;
+}
+.gender {
+    float: right;
+    position: relative;
+    top: -92px;
+    right: 175px;
+}
+.gender input {
+    margin-bottom: 10px;
+    width: 15px;
+    font-family: Arial, sans-serif;
+    font-weight: 100;
+}
+.button {
+    position: relative;
+    top: -65px;
+    margin-top: 10px;
+}
+.btn {
+    width: 52%;
+}
+
+/* Profile page styles */
+
+.fvbbc-sub {
+    font-weight: 800;
+}
+.profile {
+    padding-bottom: 15px;
+}
+.profile hgroup {
+    padding-top: 15px;
+    text-align: center;
+    color: #414141;
+    border-bottom: 1px solid #c5c5c5;
+}
+.profile h2 {
+    padding: 0;
+    line-height: 1;
+    font-weight: 400;
+    font-size: 28px;
+    color: #414141;
+    border: none;
+}
+.profile h5 {
+    line-height: 1;
+    font-size: 16px;
+}
+.profile h4 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    color: #333;
+}
+.profile-note {
+    font-size: 13px;
+}
+.user-profile {
+    width: 52%;
+    margin-left: 180px;
+    padding: 20px 0;
+    color: #454545;
+}
+.user-profile td {
+    padding-bottom: 8px;
+}
+.user-profile td:first-child {
+    font-family: 'Helvetica Neue', Helvetica;
+    font-weight: 900;
+    color: #FF8C00;
+}
+.user-profile td:last-child {
+    padding-right: 25px;
+    font-weight: 300;
+    text-align: right;
+}
+.recover {
+    margin-bottom: 35px;
+}
+.recover label {
+    display: block;
+}
+.recover .recover-note {
+    margin: 0 0 35px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #bfbfbf;
+}

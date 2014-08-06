@@ -1,0 +1,14 @@
+.main-wrap .main-pic {
+   text-align: center;
+   margin-top: 25px;
+}
+.main-wrap img {
+   border-radius: 8px;
+   -webkit-box-shadow: 1px 2px 3px #222;
+   -moz-box-shadow: 1px 2px 3px #222;
+   box-shadow: 1px 2px 3px #222;
+}
+.main-wrap p {
+   padding: 20px 50px;
+}
+
